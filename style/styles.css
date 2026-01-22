@@ -4,7 +4,6 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
-
 }
 /* navbar */
 .navbar {
@@ -61,7 +60,6 @@ nav {
   padding: 10px 20px;
 }
 .title {
-
   h1 {
     color: white;
     font-weight: 700;
@@ -81,7 +79,7 @@ nav {
   text-align: center;
   align-items: center;
   justify-content: center;
-padding-top: 10px;
+  padding-top: 10px;
   .one {
     display: flex;
     align-items: center;
@@ -101,4 +99,60 @@ padding-top: 10px;
     gap: 10px;
     border-radius: 4px;
   }
+}
+/* PROBLEMS */
+.problems {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  border: 2px solid rgb(248, 242, 242);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(167, 102, 102, 0.05);
+}
+.card img {
+  background-color: orangered;
+  border-radius: 18px;
+
+  height: 32px;
+  width: 32px;
+}
+
+/* SOLUTION */
+.solution {
+  padding: 60px 40px;
+  background: white;
+}
+
+.solution ul {
+  margin-top: 20px;
+}
+
+.solution li {
+  margin-bottom: 10px;
+}
+
+/* CTA */
+.cta {
+  padding: 60px;
+  text-align: center;
+  background: #f1f5f9;
+}
+
+/* FOOTER */
+footer {
+  background: #020617;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
